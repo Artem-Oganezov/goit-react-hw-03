@@ -17,7 +17,6 @@ const ContactForm = ({ addTasks }) => {
     name: '',
     number: '',
   };
-
   const applySchema = Yup.object().shape({
     name: Yup.string()
       .trim()
